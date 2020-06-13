@@ -1,2 +1,4 @@
-# Sudoku_Project
+# Sudoku
+
 Sudoku with python
+
