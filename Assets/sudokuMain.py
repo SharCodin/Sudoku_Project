@@ -30,12 +30,15 @@ class Ui_MainWindow(object):
         self.gridLayout.setContentsMargins(10, 10, 10, 10)
         self.gridLayout.setSpacing(10)
         self.gridLayout.setObjectName("gridLayout")
+        
         self.lineEdit_06 = QtWidgets.QLineEdit(self.gridLayoutWidget)
         self.lineEdit_06.setMinimumSize(QtCore.QSize(20, 20))
         self.lineEdit_06.setMaximumSize(QtCore.QSize(20, 20))
         self.lineEdit_06.setAlignment(QtCore.Qt.AlignCenter)
         self.lineEdit_06.setObjectName("lineEdit_06")
+        
         self.gridLayout.addWidget(self.lineEdit_06, 1, 2, 1, 1)
+        
         self.lineEdit_02 = QtWidgets.QLineEdit(self.gridLayoutWidget)
         self.lineEdit_02.setMinimumSize(QtCore.QSize(20, 20))
         self.lineEdit_02.setMaximumSize(QtCore.QSize(20, 20))

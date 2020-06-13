@@ -1,0 +1,9 @@
+#
+#
+# Convert the .ui file from Qt Designer to .py file
+#
+# open cmd in the directory where the .ui file is and type in the command:
+# pyuic5 -x nameOfFile.ui -o outputName.py
+# Example: pyuic5 -x test.ui -o test.py
+#
+#

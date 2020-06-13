@@ -9,6 +9,17 @@
 # Date Modified: 19:39 13/06/2020
 # Version: 1.0
 
+#
+#
+# Convert the .ui file from Qt Designer to .py file
+#
+# open cmd in the directory where the .ui file is and type in the command:
+# pyuic5 -x nameOfFile.ui -o outputName.py
+# Example: pyuic5 -x test.ui -o test.py
+#
+#
+
+
 # import modules
 from PyQt5 import QtWidgets
 import sys
